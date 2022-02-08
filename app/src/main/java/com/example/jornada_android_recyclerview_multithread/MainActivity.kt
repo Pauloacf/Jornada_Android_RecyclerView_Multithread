@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             "Pikachu",
             "https://cidadedoheroi.com.br/wp-content/uploads/2021/11/Pikachu-capa.jpg"
         )
-        val listaPokemons = listOf(charmander, pikachu, charmander)
+        val listaPokemons = listOf(charmander, pikachu)
 
         rvPokemons.adapter = PokemonsAdapter(listaPokemons)
     }
